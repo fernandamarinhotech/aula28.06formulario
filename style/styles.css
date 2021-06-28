@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Montserrat:wght@100&display=swap');
+
+/* NÃO ALTERAR ESSAS PROPRIEDADES DO BODY */
+body {
+    /* Altura em 100% do tamanho da janela */
+    height: 100vh;
+    /* Habilita o posicionamento Flexbox */
+    /* Transforma todos em filhos em flex itens */
+    display: flex;
+    /* Alinha os elementos na horizontal */
+    justify-content: center;
+    /* Alinha os elementos na vertical */
+    align-items: center;
+}
+
+
+#formulario {
+    height: 20vh;
+    width: 30vh;
+
+    background: linear-gradient(148deg, rgb(255, 255, 255) 0%, rgb(228, 252, 251) 41%, rgb(249, 249, 249) 100%);
+    border-style:solid;
+    border-color:rgb(206, 235, 245);
+    padding: 50px 20px 50px 20px;
+
+    font-family: 'Montserrat', sans-serif;
+  
+   
+}
+
+#alinhamento-botao {
+    display: flex;
+    justify-content: center;
+   
+}
+   
+
+button {
+    color: rgb(0, 0, 6);
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+
+}
